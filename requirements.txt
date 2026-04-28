@@ -1,0 +1,28 @@
+# Core RAG
+langchain==0.3.7
+langchain-community==0.3.7
+langchain-groq==0.2.1
+langchain-chroma==0.1.4
+chromadb==0.5.18
+langchain-text-splitters
+
+# Embeddings locaux (gratuit, pas d'API nécessaire)
+sentence-transformers==3.3.1
+
+# Parseurs de documents
+pdfplumber==0.11.4
+python-docx==1.1.2
+openpyxl==3.1.5
+pytesseract==0.3.13
+Pillow==11.0.0
+
+# API & Interface
+fastapi==0.115.5
+uvicorn[standard]==0.32.1
+streamlit==1.40.2
+python-multipart==0.0.17
+
+# Utilitaires
+python-dotenv==1.0.1
+pydantic==2.10.3
+tqdm==4.67.1
