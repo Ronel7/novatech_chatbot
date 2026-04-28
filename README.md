@@ -49,7 +49,7 @@ cp .env.example .env
 
 ### 1. Ingestion des documents
 ```bash
-# Déposez vos fichiers dans data/documents/
+# Déposez vos fichiers dans data/
 # Puis lancez l'ingestion :
 python ingest.py
 
