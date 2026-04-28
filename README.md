@@ -14,7 +14,7 @@ Chatbot RAG (Retrieval-Augmented Generation) précis avec citations, pour les do
 ## Structure
 ```
 novatech_rag/
-├── data/documents/          # Déposez vos documents ici
+├── data/                    #  Les documents ici
 ├── src/
 │   ├── config.py            # Configuration centralisée
 │   ├── ingestor.py          # Pipeline d'ingestion multi-formats
